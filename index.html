@@ -33,23 +33,43 @@
         </header>
 
         <main>
+
+             <a href="images/my-pic-150.png">
+                <img src="images/my-pic-150.png" alt="Myself 150 Pixels" sizes="(max-width:500px) 150px" srcset="images/my-pic-150.png 150w">
+            </a>
+            <a href="images/my-pic-300.png">
+                <img src="images/my-pic-300.png" alt="Myself 300 Pixels" sizes="(max-width:300px) 500px" srcset="images/my-pic-300.png 500w">
+            </a>
+           
+             <!----   <a href="images/my-pic-150.png">
+            <img src="images/my-pic-150.png" alt="Myself 150 Pixels" sizes="(max-width:500px) 150px" srcset="images/my-pic-150.png 150w">
+        </a>
+    <a href="images/my-pic-300.png">
+            <img src="images/my-pic-300.png" alt="Myself 300 Pixels" sizes="(max-width:300px) 500px" srcset="images/my-pic-300.png 500w">
+        </a>-->
+
+    
             <h1>Welcome to Wilmart Pogoy's Website!</h1>
+           
             <p>I'm Wilmart A. Pogoy, 24 yrs old and I'm a filipino.</p>
             <p>I love playing online games like DOTA2.</p>
             <h2>My Favourite Things</h2>
-
+<figure>
             <a href="https://www.nba.com/lakers/">
                 <img src="images/lakers.png" alt="Los Angeles Lakers" width="200" height="200">
+                <figcaption>Los Angeles Lakers Team</figcaption>
             </a>
 
             <a href="https://www.facebook.com/">
                 <img src="images/fb.png" alt="Facebook" width="200" height="200">
+                <figcaption>Facebook</figcaption>
             </a>
 
             <a href="https://www.dota2.com/home">
                 <img src="images/dota.png" alt="DOTA2" width="200" height="200">
+                <figcaption>DOTA2</figcaption>
             </a>
-
+        </figure>
             <h3>Planets</h3>
             <ol>
                 <li>Mercury</li>
@@ -78,6 +98,12 @@
             <p>&copy; 2020 <a
                     href="mailto:wilmart.pogoy@student.saultcollege.ca?subject=MessagefromCSD120Website">Wilmart
                     Pogoy</a></p>
+                      <!--   <img src="images/sc-logo.png" alt="Sault College logo"  srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">-->
+                    <picture>
+                        <source type="image/svg+xml" srcset="images/sc-logo.svg"  >
+                        <img src="images/sc-logo.png" width="70" alt="Sault College logo"  srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">
+                      <!-- <img src="images/sc-logo.png" srcset="images/sc-logo.svg" alt="Sault College logo" width="70">-->
+                    </picture>
         </footer>
 
         <a href="#top" title="Back to top">◤</a>
