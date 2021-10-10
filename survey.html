@@ -36,7 +36,56 @@
         <main>
 <h1>Survey</h1>
           <form>
+          
+<p><label for="name_field">What is your name?<abbr title="required" aria-label="required">*</abbr></label>
+<input type="text" id="name_field" name="name_field" required> </p>
 
+<p><label for="email_field">What is your email?<abbr title="required" aria-label="required">*</abbr></label>
+<input type="email" id="email_field" name="email_field" required></p>
+
+<p><label for="best_whole_number">Which whole number is best?</label>
+    <input type="number" id="best_whole_number" min="1" name="best_whole_number"></p>
+
+    <p><label for="best_day">Which day is best?</label>
+        <input type="date" id="best_day"  name="best_day"></p>
+
+        <p><label for="best_bear">Which bear is best?<abbr title="required" aria-label="required">*</abbr></label>
+   <select name="best_bear" required>
+    <option ></option>
+<option value="black">Black</option>
+<option value="brown">Brown</option>
+<option value="care">Care</option>
+<option value="panda">Panda</option>
+<option value="polar">Polar</option>
+<option value="teddy">Teddy</option>
+   </select>
+   </p>
+   <fieldset>
+       <legend>Do you like radio buttons?</legend>
+       <ul>
+           <li>
+               <input type="radio" name="buttons" value="yes" id="buttons_yes">
+               <label for="buttons_yes">Yes</label>
+               
+           </li>
+           <li>
+            <input type="radio" name="buttons" value="no" id="buttons_no">
+            <label for="buttons_no">No</label>
+         
+           </li>
+           <li>
+            <input type="radio" name="buttons" value="none of your business" id="buttons_none" checked> 
+            <label for="buttons_none">None of your business</label>
+           </li>
+       </ul>
+   </fieldset>
+   <p>
+    <p><label for="life_meaning">What is the meaning of life?</label>
+       <textarea name="life_meaning" id="life_meaning" rows="5" cols="50" placeholder="Enter the correct answer here"></textarea>
+   </p>
+   <p>
+       <button>Send</button>
+   </p>
           </form>
         </main>
 
