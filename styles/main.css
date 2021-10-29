@@ -22,8 +22,22 @@
   
   body {
     margin: 0;
+    background-color: #D4F1F4;
+    color: #189AB4;
   }
-  
+
+  ::selection {
+    background-color: violet;
+
+  }
+
+  h1,h2,h3 {
+
+    color: #75E6DA;
+  }
+  a {
+    color: #000C66
+  }
   /**
    * Render the `main` element consistently in IE.
    */
@@ -353,14 +367,22 @@
     display: none;
   }
 
-  width-wrap {
-
-    width: 960px;
+  .width-wrap {
+    margin: 0 auto;
+    max-width: 960px;
     padding-left: 2em;
     padding-right: 2em;
+    padding-bottom: 2em;
     border: 1px solid rgba(black, 0.3);
     border-top: none;
     margin-bottom: 3em;
+    background-color: #F9F1F0;
+    
+
 
   }
  
+  dt::after{
+      content: ":";
+  }
+
