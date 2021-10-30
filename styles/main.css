@@ -373,7 +373,7 @@
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 2em;
-    border: 1px solid rgba(black, 0.3);
+    border: 1px solid rgba(0,0,0,0.3);
     border-top: none;
     margin-bottom: 3em;
     background-color: #F9F1F0;
@@ -381,7 +381,29 @@
 
 
   }
+
+  th {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+
+  }
+
+ thead, tfoot, tbody tr th {
+    background-color: rgba(0,0,0,0.2);
+  }
  
+tr {
+  background-color: rgba(0,0,0,0.05);
+
+}
+
+tbody tr:nth-child(even){
+  background-color: rgba(0,0,0,0.15);
+}
+
   dt::after{
       content: ":";
   }
