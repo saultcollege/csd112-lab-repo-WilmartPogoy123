@@ -382,11 +382,12 @@
 
   }
 
-  th {
+  th, td {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     padding-left: 1em;
     padding-right: 1em;
+    background-color: rgba(0,0,0,0.05);
     
 
   }
@@ -395,13 +396,39 @@
     background-color: rgba(0,0,0,0.2);
   }
  
-tr {
-  background-color: rgba(0,0,0,0.05);
-
-}
 
 tbody tr:nth-child(even){
   background-color: rgba(0,0,0,0.15);
+}
+
+header {
+  border-top: 4px solid rgba(0,0,0,0.1);
+  margin-left: -2em;
+  margin-right: -2em;
+}
+
+nav {
+  border-bottom: 1px dotted rgba(0,0,0,0.3);
+  margin-right: 2em;
+  margin-left: 2em;
+  padding-top: 1em;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a:hover {
+  border-top: 4px solid #F8D210 ;
+}
+
+nav ul li a {
+  padding-top: 1em;
 }
 
   dt::after{
