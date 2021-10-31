@@ -435,3 +435,27 @@ nav ul li a {
       content: ":";
   }
 
+ input, select, textarea {
+
+  display: block;
+
+
+}
+input[type=radio],
+input.radio {
+  float: left;
+}
+
+button {
+  border: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  background-color: blue;
+  color: white;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
