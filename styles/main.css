@@ -94,6 +94,7 @@ nav ul li {
 
 nav ul li a:hover {
   border-top: 4px solid #F8D210 ;
+  text-decoration: none;
 }
 
 nav ul li a {
@@ -104,6 +105,10 @@ nav ul li a {
   margin-left: 1em;
   margin-right: 1em;
   display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  
 }
 
   dt::after{
