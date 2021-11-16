@@ -210,5 +210,9 @@ img {
 footer {
   font-size: 75%;
   text-align: center;
-  text-shadow: 2px 2px #000C66;
+  text-shadow: 2px 2px 5px #000C66;
+}
+
+footer a:hover {
+  text-decoration: none;
 }
