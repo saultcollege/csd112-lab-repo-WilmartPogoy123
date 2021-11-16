@@ -166,14 +166,11 @@ iframe {
 
  fieldset ul {
   list-style: none;
-}
-fieldset ul li {
-  display: block;
+  padding: 0;
 }
 
-input[type="radio"] {
-  visibility: hidden;
-}
+
+
 
 
 h1 {
