@@ -200,9 +200,12 @@
   footer {
       font-size: 75%;
       text-align: center;
-      text-shadow: 2px 2px 5px #000C66;
+  }
+
+  a[href$="top"] {
+    text-shadow: 2px 2px 5px #000C66;
   }
   
-  footer a:hover {
+  a[href$="top"]:hover {
       text-decoration: none;
   }
