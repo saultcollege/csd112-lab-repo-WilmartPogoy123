@@ -88,10 +88,12 @@
   nav ul {
       margin: 0px;
       padding: 0px;
+      display: flex;
+      justify-content: center;
   }
   
   nav ul li {
-      display: inline;
+      list-style: none;
   }
   
   nav ul li a:hover {
@@ -201,9 +203,9 @@
       font-size: 75%;
       text-align: center;
   }
-
+  
   a[href$="top"] {
-    text-shadow: 2px 2px 5px #000C66;
+      text-shadow: 2px 2px 5px #000C66;
   }
   
   a[href$="top"]:hover {
