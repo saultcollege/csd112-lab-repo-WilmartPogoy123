@@ -193,7 +193,7 @@
       max-width: 100%;
   }
   
-  .bio img {
+  .bio img:nth-child(1) {
       padding: 2%;
       background-color: white;
       box-shadow: 5px 5px #000C66;
@@ -206,10 +206,15 @@
   
   a[href$="top"] {
       text-shadow: 2px 2px 5px #000C66;
+      position: sticky;
+      margin-left: -25px;
+      bottom: 10px;
+      display: inline-block;
   }
   
   a[href$="top"]:hover {
       text-decoration: none;
+      transform: rotate(45deg);
   }
   
   .favourites>input[type=radio] {
@@ -248,4 +253,18 @@
   
   .gallery a:hover {
       transform: scale(1.1);
+  }
+  
+  .paperclip {
+      background: none;
+      box-shadow: none;
+      width: 20%;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+  }
+  
+  .bio a {
+      display: block;
+      position: relative;
   }
