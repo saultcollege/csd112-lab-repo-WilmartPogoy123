@@ -211,3 +211,41 @@
   a[href$="top"]:hover {
       text-decoration: none;
   }
+  
+  .favourites>input[type=radio] {
+      display: none;
+  }
+  
+  .favourites {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .favourites>label {
+      order: -1;
+  }
+  
+  .gallery {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 5px;
+  }
+  
+  .gallery>a>img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+  }
+  
+  .gallery>a.row-span-2 {
+      grid-row: span 2;
+  }
+  
+  .gallery>a.col-span-2 {
+      grid-column: span 2;
+  }
+  
+  .gallery a:hover {
+      transform: scale(1.1);
+  }
