@@ -16,8 +16,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Work+Sans&display=swap" rel="stylesheet"> 
-    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Work+Sans&display=swap" rel="stylesheet">
+
     <!-- Great work! -->
     <style>
         img {
@@ -36,8 +36,19 @@
             float: left;
         }
         
+        @media screen and (max-width: 500px) {
+            .right {
+                float: none;
+                display: block;
+            }
+            .left {
+                float: none;
+                display: block;
+            }
+        }
+        
         main>p {
-            display: inline-block;
+            display: inline-block !important;
         }
     </style>
 </head>
