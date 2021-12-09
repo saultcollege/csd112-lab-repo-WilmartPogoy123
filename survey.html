@@ -16,7 +16,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Work+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,6 +24,8 @@
 
         <header id="top">
             <nav>
+                <input type="checkbox" name="menu-toggle" id="menu-toggle">
+                <label class="sandwich-icon" for="menu-toggle"></label>
                 <ul>
 
                     <li> <a href="index.html">Home</a></li>
@@ -93,13 +95,12 @@
                     </ul>
                 </fieldset>
                 <p>
-                <p><label for="life_meaning">What is the meaning of life?</label>
-                    <textarea name="life_meaning" id="life_meaning" rows="5" cols="50"
-                        placeholder="Enter the correct answer here"></textarea>
-                </p>
-                <p>
-                    <button type="submit">Send</button>
-                </p>
+                    <p><label for="life_meaning">What is the meaning of life?</label>
+                        <textarea name="life_meaning" id="life_meaning" rows="5" cols="50" placeholder="Enter the correct answer here"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
             </form>
         </main>
 
@@ -110,14 +111,12 @@
                 <p>"Simple life is a happy life."</p>
                 <cite>&mdash;<span class="author"> Unknown</span></cite>
             </blockquote>
-            <p>&copy; 2020 <a
-                    href="mailto:wilmart.pogoy@student.saultcollege.ca?subject=MessagefromCSD120Website">Wilmart
+            <p>&copy; 2020 <a href="mailto:wilmart.pogoy@student.saultcollege.ca?subject=MessagefromCSD120Website">Wilmart
                     Pogoy</a></p>
             <!--   <img src="images/sc-logo.png" alt="Sault College logo"  srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">-->
             <picture>
                 <source type="image/svg+xml" srcset="images/sc-logo.svg">
-                <img src="images/sc-logo.png" width="70" alt="Sault College logo"
-                    srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">
+                <img src="images/sc-logo.png" width="70" alt="Sault College logo" srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">
                 <!-- <img src="images/sc-logo.png" srcset="images/sc-logo.svg" alt="Sault College logo" width="70">-->
             </picture>
         </footer>
