@@ -409,10 +409,12 @@
       }
       nav>input[id="menu-toggle"]:checked+label::before {
           display: block;
-          transform: rotate(-45deg) translate(-3px, 4px);
+          transform: rotate(-45deg) translate(-4px, 4px);
+          border-top: red 5px solid;
       }
       nav>input[id="menu-toggle"]:checked+label::after {
           display: block;
-          transform: rotate(45deg) translate(-3px, -4px);
+          transform: rotate(45deg) translate(-4px, -4px);
+          border-top: red 5px solid;
       }
   }
