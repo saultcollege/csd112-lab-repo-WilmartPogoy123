@@ -247,6 +247,15 @@
       transform: rotate(45deg);
   }
   
+  @media screen and (max-width: 800px) {
+      .favourites {
+          flex-direction: column;
+      }
+      .favourites>label {
+          order: 0;
+      }
+  }
+  
   .favourites>input[type=radio] {
       display: none;
   }
